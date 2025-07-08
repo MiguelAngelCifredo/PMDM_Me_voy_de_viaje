@@ -1,3 +1,5 @@
+![Icon](/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp)
+
 # Me voy de viaje
 
 Esta es una app Android sencilla que permite mostrar un mensaje según las opciones seleccionadas.

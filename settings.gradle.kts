@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DAM Me voy de viaje"
+rootProject.name = "Me voy de viaje"
 include(":app")
