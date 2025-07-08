@@ -10,12 +10,13 @@ Esta es una app Android sencilla que permite mostrar un mensaje según las opcio
     - `RadioButton` con texto "París" (Opción por defecto). 
     - `RadioButton` con texto "Londres".
     - `RadioButton` con texto "Roma".
+- `TextView` con texto "Transporte:" y tamaño de fuente 20sp.
 - **Grupo de botones de transporte:**
     - `RadioButton` con texto "Coche" (Opción por defecto).
     - `RadioButton` con texto "Tren".
     - `RadioButton` con texto "Avión".
 - **Botón INFO:**
-    - Texto "INFORMACIÓN".
+    - `Button` con texto "INFORMACIÓN".
     - Fondo azul claro.
 
 ## ⚙️ Funcionalidad
@@ -34,7 +35,6 @@ Esta es una app Android sencilla que permite mostrar un mensaje según las opcio
 ```
 /app/src/main/java/.../MainActivity.java (funcionalidad básica)
 /app/src/main/res/layout/activity_main.xml
-README.md
 ```
 
 ## 📸 Capturas de pantalla
@@ -43,13 +43,9 @@ README.md
 
 ![Pantalla principal](screenshots/inicio.png)
 
-### Resultado de una operación
+### Resultado de una selección
 
-![Resultado](screenshots/normal.png)
-
-### Error en la operación
-
-![Error](screenshots/error.png)
+![Resultado](screenshots/selección.png)
 
 ## 📄 Licencia
 

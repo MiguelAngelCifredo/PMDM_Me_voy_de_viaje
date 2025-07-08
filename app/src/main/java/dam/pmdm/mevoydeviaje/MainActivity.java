@@ -68,11 +68,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Obtener el destino seleccionado
         int idDestino = ((RadioGroup)findViewById(R.id.rgDestino)).getCheckedRadioButtonId();
-        String destino = ((RadioButton)findViewById(idDestino)).getText().toString();;
+        String destino = ((RadioButton)findViewById(idDestino)).getText().toString();
 
         // Obtener el transporte seleccionado
         int idTransporte = ((RadioGroup)findViewById(R.id.rgTransporte)).getCheckedRadioButtonId();
-        String transporte = ((RadioButton)findViewById(idDestino)).getText().toString();;
+        String transporte = ((RadioButton)findViewById(idTransporte)).getText().toString();
 
         // Mostrar la información
         Toast.makeText(this, "Me voy a " + destino + " en " + transporte, Toast.LENGTH_LONG).show();
