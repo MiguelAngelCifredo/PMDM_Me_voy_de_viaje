@@ -22,20 +22,20 @@
         android:layout_marginStart="64dp">
 
         <RadioButton
-            android:id="@+id/rbParis"
+            android:id="@+id/rbDestino1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="París" />
 
         <RadioButton
-            android:id="@+id/rbLondres"
+            android:id="@+id/rbDestino2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Londres" />
 
         <RadioButton
-            android:id="@+id/rbRoma"
+            android:id="@+id/rbDestino3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Roma" />
@@ -59,20 +59,20 @@
         android:layout_marginStart="64dp">
 
         <RadioButton
-            android:id="@+id/rbCoche"
+            android:id="@+id/rbTransporte1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="Coche" />
 
         <RadioButton
-            android:id="@+id/rbTren"
+            android:id="@+id/rbTransporte2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tren" />
 
         <RadioButton
-            android:id="@+id/rbAvion"
+            android:id="@+id/rbTransporte3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Avión" />

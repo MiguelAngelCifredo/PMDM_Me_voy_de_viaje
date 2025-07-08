@@ -23,18 +23,18 @@ public class MainActivity extends AppCompatActivity {
 
         // Obtener el destino seleccionado
         String destino = "";
-        RadioButton destino1 = findViewById(R.id.rbParis);
-        RadioButton destino2 = findViewById(R.id.rbLondres);
-        RadioButton destino3 = findViewById(R.id.rbRoma);
+        RadioButton destino1 = findViewById(R.id.rbDestino1);
+        RadioButton destino2 = findViewById(R.id.rbDestino2);
+        RadioButton destino3 = findViewById(R.id.rbDestino3);
         if (destino1.isChecked()) destino = "París";
         if (destino2.isChecked()) destino = "Londres";
         if (destino3.isChecked()) destino = "Roma";
 
         // Obtener el transporte seleccionado
         String transporte = "";
-        RadioButton transporte1 = findViewById(R.id.rbCoche);
-        RadioButton transporte2 = findViewById(R.id.rbTren);
-        RadioButton transporte3 = findViewById(R.id.rbAvion);
+        RadioButton transporte1 = findViewById(R.id.rbTransporte1);
+        RadioButton transporte2 = findViewById(R.id.rbTransporte2);
+        RadioButton transporte3 = findViewById(R.id.rbTransporte3);
         if (transporte1.isChecked()) transporte = "Coche";
         if (transporte2.isChecked()) transporte = "Tren";
         if (transporte3.isChecked()) transporte = "Avión";
@@ -47,17 +47,17 @@ public class MainActivity extends AppCompatActivity {
 
         // Obtener el destino seleccionado
         String destino = "";
-        int idDestino = ((RadioGroup)findViewById(R.id.rgDestino)).getCheckedRadioButtonId();
-        if (idDestino == R.id.rbParis)   destino = "París";
-        if (idDestino == R.id.rbLondres) destino = "Londres";
-        if (idDestino == R.id.rbRoma)    destino = "Roma";
+        int rbDestino = ((RadioGroup)findViewById(R.id.rgDestino)).getCheckedRadioButtonId();
+        if (rbDestino == R.id.rbDestino1) destino = "París";
+        if (rbDestino == R.id.rbDestino2) destino = "Londres";
+        if (rbDestino == R.id.rbDestino3) destino = "Roma";
 
         // Obtener el transporte seleccionado
         String transporte = "";
-        int idTransporte = ((RadioGroup)findViewById(R.id.rgTransporte)).getCheckedRadioButtonId();
-        if (idTransporte == R.id.rbCoche) transporte = "Coche";
-        if (idTransporte == R.id.rbTren)  transporte = "Tren";
-        if (idTransporte == R.id.rbAvion) transporte = "Avión";
+        int rbTransporte = ((RadioGroup)findViewById(R.id.rgTransporte)).getCheckedRadioButtonId();
+        if (rbTransporte == R.id.rbTransporte1) transporte = "Coche";
+        if (rbTransporte == R.id.rbTransporte2) transporte = "Tren";
+        if (rbTransporte == R.id.rbTransporte3) transporte = "Avión";
 
         // Mostrar la información
         Toast.makeText(this, "Me voy a " + destino + " en " + transporte, Toast.LENGTH_LONG).show();
@@ -67,12 +67,12 @@ public class MainActivity extends AppCompatActivity {
     private void mostrarInfoV3() {
 
         // Obtener el destino seleccionado
-        int idDestino = ((RadioGroup)findViewById(R.id.rgDestino)).getCheckedRadioButtonId();
-        String destino = ((RadioButton)findViewById(idDestino)).getText().toString();
+        int rbDestino = ((RadioGroup)findViewById(R.id.rgDestino)).getCheckedRadioButtonId();
+        String destino = ((RadioButton)findViewById(rbDestino)).getText().toString();
 
         // Obtener el transporte seleccionado
-        int idTransporte = ((RadioGroup)findViewById(R.id.rgTransporte)).getCheckedRadioButtonId();
-        String transporte = ((RadioButton)findViewById(idTransporte)).getText().toString();
+        int rbTransporte = ((RadioGroup)findViewById(R.id.rgTransporte)).getCheckedRadioButtonId();
+        String transporte = ((RadioButton)findViewById(rbTransporte)).getText().toString();
 
         // Mostrar la información
         Toast.makeText(this, "Me voy a " + destino + " en " + transporte, Toast.LENGTH_LONG).show();
