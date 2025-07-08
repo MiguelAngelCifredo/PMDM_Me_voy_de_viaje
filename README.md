@@ -45,7 +45,7 @@ Esta es una app Android sencilla que permite mostrar un mensaje según las opcio
 
 ### Resultado de una selección
 
-![Resultado](screenshots/selección.png)
+![Resultado](screenshots/seleccion.png)
 
 ## 📄 Licencia
 
